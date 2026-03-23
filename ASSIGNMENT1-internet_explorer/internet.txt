@@ -1,0 +1,56 @@
+Assignment 1 (09/02/2026)
+
+Assignment Name: Internet Explorer
+
+
+Client–Server Architecture
+
+Explanation
+
+Client–Server Architecture is a computing model where tasks are divided between clients and servers.
+
+Client: The client is the user’s device (computer, laptop, mobile) that requests services or resources. Example: Web browser like Chrome.
+
+Server: The server is a powerful computer that stores and provides data or services to clients.
+
+The client sends a request, and the server sends a response.
+
+
+Example:
+When we open a website, the browser acts as a client and the web hosting machine acts as a server.
+
+
+
+What Happens When You Open a Website
+
+
+1. User Enters URL
+The user types a website address (URL) in the browser.
+
+
+2. DNS Lookup
+The browser contacts the Domain Name System (DNS) to find the IP address of the website.
+
+
+3. Request Sent to Server
+After obtaining the IP address, the browser sends an HTTP/HTTPS request to the server.
+
+
+4. Server Processing
+The server processes the request and prepares the required web page data.
+
+
+5. Server Response
+The server sends back an HTTP response containing HTML, CSS, images, etc.
+
+
+6. Browser Rendering
+The browser interprets the HTML/CSS and displays the web page to the user.
+
+
+
+
+
+
+
+

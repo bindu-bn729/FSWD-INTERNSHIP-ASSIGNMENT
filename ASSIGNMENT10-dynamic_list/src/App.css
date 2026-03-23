@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#e3f2fd;
+}
+
+.container{
+  text-align:center;
+  padding-top:80px;
+}
+
+.inputBox{
+  margin-bottom:20px;
+}
+
+input{
+  padding:8px;
+  width:200px;
+}
+
+button{
+  padding:8px 12px;
+  margin-left:5px;
+  cursor:pointer;
+}
+
+.taskList{
+  width:350px;
+  margin:auto;
+}
+
+.taskCard{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:white;
+  padding:10px;
+  margin:10px 0;
+  border-radius:6px;
+  box-shadow:0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.completed{
+  text-decoration:line-through;
+  color:gray;
+}
+
+.deleteBtn{
+  background:red;
+  color:white;
+  border:none;
+  border-radius:4px;
+}

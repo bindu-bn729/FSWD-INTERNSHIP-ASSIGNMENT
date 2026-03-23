@@ -1,0 +1,134 @@
+Assignment Name: Component Hunt
+
+
+---
+
+Example Website: YouTube
+
+Website Components
+
+A modern website is built using components. Each component represents a reusable section of the page.
+
+The YouTube homepage can be divided into the following components:
+
+1. Header / Navbar
+
+Contains:
+
+Logo
+
+Search bar
+
+Upload button
+
+Notifications icon
+
+User profile
+
+
+Purpose:
+Allows users to navigate and search videos.
+
+
+---
+
+2. Sidebar Menu
+
+Contains:
+
+Home
+
+Shorts
+
+Subscriptions
+
+Library
+
+History
+
+
+Purpose:
+Helps users navigate between different sections of the website.
+
+
+---
+
+3. Main Content Area
+
+Displays:
+
+Video thumbnails
+
+Video titles
+
+Channel names
+
+View counts
+
+
+Purpose:
+Shows the main video recommendations.
+
+
+---
+
+4. Video Card Component
+
+Each video includes:
+
+Thumbnail
+
+Video title
+
+Channel name
+
+Views and upload time
+
+
+Purpose:
+Displays individual video information.
+
+
+---
+
+5. Footer
+
+Contains:
+
+About
+
+Terms
+
+Privacy policy
+
+Help
+
+
+Purpose:
+Provides additional information and links.
+
+
+---
+
+Simple Structure Diagram 
+
+
+-------------------------------------
+|              HEADER               |
+| Logo   Search Bar      Profile    |
+-------------------------------------
+| Sidebar |                         |
+| Menu    |      Main Content       |
+|         |   Video Thumbnails      |
+|         |   Video Cards           |
+-------------------------------------
+|              Footer               |
+-------------------------------------
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Console Calculator</title>
+</head>
+<body>
+
+<h2>Console Calculator</h2>
+<p>Press F12 and open Console</p>
+
+<script>
+
+// Take input from user
+let num1 = Number(prompt("Enter first number:"));
+let num2 = Number(prompt("Enter second number:"));
+
+// Ask operation
+let operation = prompt("Choose operation: +  -  *  /");
+
+// Perform calculation
+let result;
+
+if (operation === "+") {
+    result = num1 + num2;
+}
+else if (operation === "-") {
+    result = num1 - num2;
+}
+else if (operation === "*") {
+    result = num1 * num2;
+}
+else if (operation === "/") {
+    result = num1 / num2;
+}
+else {
+    console.log("Invalid operation");
+}
+
+// Display result in console
+console.log("Result:", result);
+
+</script>
+
+</body>
+</html>

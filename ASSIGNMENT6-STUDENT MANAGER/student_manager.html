@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Manager</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    text-align:center;
+}
+
+.container{
+    width:400px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    margin-top:40px;
+    border-radius:10px;
+}
+
+input{
+    width:90%;
+    padding:8px;
+    margin:5px;
+}
+
+button{
+    padding:10px 20px;
+    background:#4b6cb7;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+#output{
+    margin-top:20px;
+    text-align:left;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h2>Student Manager</h2>
+
+<input type="text" id="name" placeholder="Enter Student Name">
+
+<input type="number" id="m1" placeholder="Subject 1 Marks">
+<input type="number" id="m2" placeholder="Subject 2 Marks">
+<input type="number" id="m3" placeholder="Subject 3 Marks">
+
+<br><br>
+
+<button onclick="addStudent()">Add Student</button>
+
+<div id="output"></div>
+
+</div>
+
+<script>
+
+let students = [];
+
+function addStudent(){
+
+let name = document.getElementById("name").value;
+let m1 = Number(document.getElementById("m1").value);
+let m2 = Number(document.getElementById("m2").value);
+let m3 = Number(document.getElementById("m3").value);
+
+let student = {
+name:name,
+marks:[m1,m2,m3]
+};
+
+students.push(student);
+
+displayStudents();
+
+}
+
+function displayStudents(){
+
+let result="";
+
+students.forEach(function(student){
+
+let sum=0;
+
+student.marks.forEach(function(mark){
+sum += mark;
+});
+
+let avg = sum / student.marks.length;
+
+result += "<p><b>"+student.name+"</b><br>";
+result += "Marks: "+student.marks.join(", ")+"<br>";
+result += "Average: "+avg.toFixed(2)+"</p>";
+
+});
+
+document.getElementById("output").innerHTML = result;
+
+}
+
+</script>
+
+</body>
+</html>
