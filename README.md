@@ -19,7 +19,11 @@ This repository contains all my assignments completed during my Full Stack Web D
 13. Smart Signup Form  
 14. Folder Architect  
 15. Product Listing UI  
-16. Hello Server  
+16. Hello Server
+17. Route Master
+18. Task API
+19. MVC Refactor
+20. Data Modeler
 
 ---
 
@@ -30,7 +34,8 @@ This repository contains all my assignments completed during my Full Stack Web D
 - JavaScript  
 - React.js  
 - Node.js (Basic)
-
+- Express.js
+- MongoDB
 ---
 
 ## 🚀 Features Covered
@@ -49,4 +54,3 @@ This repository contains all my assignments completed during my Full Stack Web D
 These assignments were built to strengthen my understanding of full-stack development concepts and improve problem-solving skills.
 
 ---
-Updated by Chandana N M 
