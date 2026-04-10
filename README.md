@@ -24,6 +24,10 @@ This repository contains all my assignments completed during my Full Stack Web D
 18. Task API
 19. MVC Refactor
 20. Data Modeler
+21. Crud Lab
+22. Secure Login
+23. Role Guard
+24. Connecting Stack
 
 ---
 
